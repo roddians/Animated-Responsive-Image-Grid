@@ -309,7 +309,7 @@
 
 			if( this.options.preventClick ) {
 
-				this.$items.children().css( 'cursor', 'default' ).on( 'click.gridrotator', false );
+				this.$items.children().css( 'cursor', 'default' ).on( 'click.gridrotator', true );
 
 			}
 
