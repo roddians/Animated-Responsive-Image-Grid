@@ -336,35 +336,3 @@
 	};
 	
 } )( jQuery, window );
-
-
-
-//sidebar floating
-
-$(window).scroll(function(){
-var wScroll = $(this).scrollTop();
-	
-	$('.item-view .sidebar-container').css({
-		'transform' : 'translate(0px,'+ wScroll/2 +'%)'
-	
-}); 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
